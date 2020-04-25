@@ -14,6 +14,8 @@ ftaoba BLE peripheral information.
 
 ### Notifing data
 
+ftaoba send face tracking data as byte array.
+
 | bytes | info                             | description                                                                     |
 |-------|----------------------------------|---------------------------------------------------------------------------------|
 | 4     | version                          | 1                                                                               |
