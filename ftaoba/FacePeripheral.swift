@@ -17,7 +17,7 @@ class FacePeripheral: NSObject {
     
     static let serviceUUID = CBUUID(string:  "07B196F9-5AA0-4270-B610-8DEDA20A417C")
     static let characterisiticUUID = CBUUID(string: "7A051851-3ABE-4ADB-94FC-8E2021A58320")
-    static let advertisementData = [CBAdvertisementDataServiceUUIDsKey:  [FacePeripheral.serviceUUID], CBAdvertisementDataLocalNameKey: "blueface"] as [String: Any]
+    static let advertisementData = [CBAdvertisementDataServiceUUIDsKey:  [FacePeripheral.serviceUUID], CBAdvertisementDataLocalNameKey: "ftaoba"] as [String: Any]
     
     override init() {
         super.init()
