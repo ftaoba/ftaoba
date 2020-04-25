@@ -1,6 +1,6 @@
 //
-//  bluefaceUITests.swift
-//  bluefaceUITests
+//  ftaobaUITests.swift
+//  ftaobaUITests
 //
 //  Created by ukyo on 2020/04/18.
 //  Copyright © 2020 ukyo. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class bluefaceUITests: XCTestCase {
+class ftaobaUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
