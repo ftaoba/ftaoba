@@ -117,6 +117,16 @@ let blendShapeLabels: [String] = [
     "tongueOut"
 ]
 
+var blendShapeIsOn: [Bool] = blendShapeLabels.map { _ in false }
+
+let transformLabels: [String] = [
+    "face", "leftEye", "rightEye"
+]
+
+var transformIsOn: [Bool] = transformLabels.map { _ in false }
+
+var customStates: [CustomState] = []
+
 extension Float {
     var data: Data {
         var v = self

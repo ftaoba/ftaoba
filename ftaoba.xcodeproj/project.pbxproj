@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32359AA62479375500A99DBA /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AA52479375500A99DBA /* SettingTableViewController.swift */; };
+		32359AA8247982CE00A99DBA /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AA7247982CE00A99DBA /* SwitchTableViewCell.swift */; };
+		32359AAA247A598900A99DBA /* CustomStateFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AA9247A598900A99DBA /* CustomStateFormController.swift */; };
+		32359AAC247A91AB00A99DBA /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AAB247A91AB00A99DBA /* CustomState.swift */; };
+		32359AAE247A9F6300A99DBA /* CustomStateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AAD247A9F6300A99DBA /* CustomStateListViewController.swift */; };
+		32359AB0247AA2A200A99DBA /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32359AAF247AA2A200A99DBA /* SliderTableViewCell.swift */; };
 		32944D14244AD50900F5A81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32944D13244AD50900F5A81A /* AppDelegate.swift */; };
 		32944D16244AD50900F5A81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32944D15244AD50900F5A81A /* ViewController.swift */; };
 		32944D18244AD50900F5A81A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 32944D17244AD50900F5A81A /* Experience.rcproject */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32359AA52479375500A99DBA /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		32359AA7247982CE00A99DBA /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		32359AA9247A598900A99DBA /* CustomStateFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStateFormController.swift; sourceTree = "<group>"; };
+		32359AAB247A91AB00A99DBA /* CustomState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		32359AAD247A9F6300A99DBA /* CustomStateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStateListViewController.swift; sourceTree = "<group>"; };
+		32359AAF247AA2A200A99DBA /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
 		32944D10244AD50900F5A81A /* ftaoba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ftaoba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32944D13244AD50900F5A81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32944D15244AD50900F5A81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,9 +115,15 @@
 			children = (
 				32944D13244AD50900F5A81A /* AppDelegate.swift */,
 				32944D15244AD50900F5A81A /* ViewController.swift */,
+				32359AAB247A91AB00A99DBA /* CustomState.swift */,
+				32359AA7247982CE00A99DBA /* SwitchTableViewCell.swift */,
+				32359AAF247AA2A200A99DBA /* SliderTableViewCell.swift */,
 				32E5A016244B95A40036F02F /* FacePeripheral.swift */,
 				32944D17244AD50900F5A81A /* Experience.rcproject */,
 				32944D19244AD50900F5A81A /* Main.storyboard */,
+				32359AAD247A9F6300A99DBA /* CustomStateListViewController.swift */,
+				32359AA9247A598900A99DBA /* CustomStateFormController.swift */,
+				32359AA52479375500A99DBA /* SettingTableViewController.swift */,
 				32944D1C244AD50B00F5A81A /* Assets.xcassets */,
 				32944D1E244AD50B00F5A81A /* LaunchScreen.storyboard */,
 				32944D21244AD50B00F5A81A /* Info.plist */,
@@ -210,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32944D0B244AD50900F5A81A /* Build configuration list for PBXProject "blueface" */;
+			buildConfigurationList = 32944D0B244AD50900F5A81A /* Build configuration list for PBXProject "ftaoba" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32359AA62479375500A99DBA /* SettingTableViewController.swift in Sources */,
 				32944D16244AD50900F5A81A /* ViewController.swift in Sources */,
+				32359AA8247982CE00A99DBA /* SwitchTableViewCell.swift in Sources */,
 				32E5A017244B95A40036F02F /* FacePeripheral.swift in Sources */,
+				32359AB0247AA2A200A99DBA /* SliderTableViewCell.swift in Sources */,
 				32944D14244AD50900F5A81A /* AppDelegate.swift in Sources */,
+				32359AAE247A9F6300A99DBA /* CustomStateListViewController.swift in Sources */,
+				32359AAC247A91AB00A99DBA /* CustomState.swift in Sources */,
+				32359AAA247A598900A99DBA /* CustomStateFormController.swift in Sources */,
 				32944D18244AD50900F5A81A /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32944D0B244AD50900F5A81A /* Build configuration list for PBXProject "blueface" */ = {
+		32944D0B244AD50900F5A81A /* Build configuration list for PBXProject "ftaoba" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32944D38244AD50B00F5A81A /* Debug */,
