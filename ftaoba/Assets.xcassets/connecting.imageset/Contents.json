@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "preview.png",
+      "filename" : "connecting.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "preview@2x.png",
+      "filename" : "connecting@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "preview@3x.png",
+      "filename" : "connecting@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

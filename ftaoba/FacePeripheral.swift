@@ -15,6 +15,12 @@ class FacePeripheral: NSObject {
     private var service: CBMutableService?
     private var characteristic: CBMutableCharacteristic?
     
+    var isConnecting: Bool {
+        get {
+            return peripheralManager?.state == .poweredOn
+        }
+    }
+    
     static let serviceUUID = CBUUID(string:  "07B196F9-5AA0-4270-B610-8DEDA20A417C")
     static let characterisiticUUID = CBUUID(string: "7A051851-3ABE-4ADB-94FC-8E2021A58320")
     static let advertisementData = [CBAdvertisementDataServiceUUIDsKey:  [FacePeripheral.serviceUUID], CBAdvertisementDataLocalNameKey: "ftaoba"] as [String: Any]
@@ -40,7 +46,6 @@ extension FacePeripheral: CBPeripheralManagerDelegate {
     }
     
     func peripheralManager(_ peripheral: CBPeripheralManager, central: CBCentral, didSubscribeTo characteristic: CBCharacteristic) {
-//        central.
     }
     
     func peripheralManagerDidStartAdvertising(_ peripheral: CBPeripheralManager, error: Error?) {

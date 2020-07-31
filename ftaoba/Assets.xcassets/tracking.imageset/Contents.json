@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "noinfo.png",
+      "filename" : "tracking.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "noinfo@2x.png",
+      "filename" : "tracking@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "noinfo@3x.png",
+      "filename" : "tracking@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
